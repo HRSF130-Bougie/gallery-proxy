@@ -1,4 +1,5 @@
 .app-container {
+    position: relative;
     display: grid;
     grid-template-columns: 58vw 42vw;
     grid-template-rows: auto;
@@ -9,9 +10,15 @@
     grid-column: 1/3;
 }
 
-#booking {
+#booking-container {
     grid-row: 1;
     grid-column: 2;
+    position: absolute;
+    top: 1000px;
+    left: 5px;
+}
+
+#booking {
 }
 
 #checkin-container {
@@ -57,7 +64,7 @@
 
 #explore-container-image {
     width: 1120px;
-    height: 1200px;
+    height: 821px;
     margin: 0 auto;
 }
 
