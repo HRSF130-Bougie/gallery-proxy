@@ -1,0 +1,71 @@
+.app-container {
+    display: grid;
+    grid-template-columns: 58vw 42vw;
+    grid-template-rows: auto;
+}
+
+#gallery-service {
+    grid-row: 1;
+    grid-column: 1/3;
+}
+
+#booking {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#checkin-container {
+    grid-row: 2;
+    grid-column: 1/3;
+    margin: 0 auto;
+}
+
+#amenities-container {
+    grid-row: 3;
+    grid-column: 1/3;
+    margin: 0 auto;
+}
+
+#reviews {
+    grid-row: 4;
+    grid-column: 1/3;
+}
+
+#map-container {
+    grid-row: 5;
+    grid-column: 1/3;
+    margin: 0 auto;
+}
+
+#hosted-container {
+    grid-row: 6;
+    grid-column: 1/3;
+    margin: 0 auto;
+}
+
+#MorePlaces {
+    grid-row: 7;
+    grid-column: 1/3;
+}
+
+#explore-container {
+    grid-row: 8;
+    grid-column: 1/3;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+#explore-container-image {
+    width: 1120px;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+.nodragglement {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
